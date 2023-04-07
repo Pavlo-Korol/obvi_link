@@ -30,28 +30,35 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 4px;
+    gap: 13px;
+    margin-bottom: 35px;
 
     &-btn{
-
-      gap: 13px;
-      
-
       img{
         width: 14px;
         height: 16px;
       }
     }
 
+    article{
+      display: flex;
+      gap: 4px;
+    }
+
     &-dots{
-      
-      width: 2px;
-      height: 2px;
+      width: 4px;
+      height: 4px;
       background-color: #000;
       border: 1px solid #000;
       border-radius: 20px;
+    }
 
-      
+    &-dots-transperent{
+      width: 4px;
+      height: 4px;
+      background-color: #E2E2E2;
+      border: 1px solid #E2E2E2;
+      border-radius: 20px;
     }
   }
 }

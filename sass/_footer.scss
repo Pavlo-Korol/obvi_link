@@ -1,0 +1,34 @@
+.footer {
+  text-align: center;
+  background-color: var(--footer-bg-color);
+
+  &__list {
+    padding-top: 15px;
+
+    &-item {
+      padding-top: 25px;
+    }
+
+    &-link {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 140%;
+      color: var(--main-text-color);
+    }
+  }
+
+  &__rights{
+    color: #CBDFE6;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    padding-top: 35px;
+    padding-bottom: 15px;
+  }
+
+  &__logo-link{
+    display: inline-block;
+    margin: 0 auto;
+    padding-bottom: 78px;
+  }
+}
