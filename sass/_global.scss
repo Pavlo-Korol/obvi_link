@@ -25,3 +25,25 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+.btn{
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+
+    &:hover{
+      opacity: .7;
+    }
+
+    &:active{
+      opacity: .5;
+    }
+  }
+
+
+  .material-symbols-outlined{
+    font-size: 20px;
+  }
