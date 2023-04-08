@@ -139,7 +139,7 @@ a:hover {
 }
 
 .offer {
-  margin: 85px 35px 0 35px;
+  margin-top: 85px;
 }
 .offer__title {
   font-weight: 700;
@@ -156,6 +156,7 @@ a:hover {
 }
 .offer__btn {
   margin-top: 13px;
+  width: 100%;
 }
 .offer__tel-img {
   margin-top: 40px;
@@ -249,6 +250,26 @@ a:hover {
   }
   .header__nav-list-desktop a {
     font-size: 16px;
+  }
+  .offer {
+    display: flex;
+    margin: 60px 65px 0 65px;
+  }
+  .offer__btn {
+    width: 120px;
+  }
+  .offer__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 55px;
+    max-width: 260px;
+  }
+  .offer__title-wrapper {
+    margin-top: 190px;
+    margin-right: 65px;
+  }
+  .offer__title-desc {
+    font-size: 18px;
   }
   .footer {
     display: flex;

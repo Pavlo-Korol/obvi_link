@@ -10,6 +10,7 @@
     padding-right: calc(50vw - 420px);
   }
 
+  // header-----
   .logo {
     &-img {
       width: 158px;
@@ -35,6 +36,35 @@
       font-size: 16px;
     }
   }
+
+  // header-----
+
+  .offer{
+    display: flex;
+    margin: 60px 65px 0 65px;
+
+    &__btn{
+      width: 120px;
+    }
+
+    &__title{
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 55px;
+      max-width: 260px;
+
+      &-wrapper{
+        margin-top: 190px;
+        margin-right: 65px;
+      }
+    }
+
+    &__title-desc{
+      font-size: 18px;
+    }
+  }
+
+  // footer-----
 
   .footer {
     display: flex;
@@ -69,6 +99,7 @@
       margin: 0;
     }
   }
+  // footer----
 }
 
 @media screen and (min-width: 1700px) {
@@ -76,8 +107,10 @@
     padding-left: calc(50vw - 675px);
     padding-right: calc(50vw - 675px);
   }
+  // header-----
   .logo {
     width: 158px;
     height: 25px;
   }
+  // header-----
 }
