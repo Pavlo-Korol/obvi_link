@@ -1,5 +1,5 @@
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 300;
   font-size: 14px;
   line-height: 1.4;
@@ -8,7 +8,7 @@ body {
   padding-left: calc(50vw - 125px);
   padding-right: calc(50vw - 125px);
 }
-img {
+.logo_img {
   display: block;
   max-width: 100%;
 }
@@ -26,30 +26,30 @@ img {
   overflow: hidden;
 }
 
-.btn{
-    text-align: center;
-    width: 120px;
-    border: 1px solid #000;
-    border-radius: 5px;
-    background-color: #000;
-    color: #fff;
-    padding: 10px 0;
+.btn {
+  text-align: center;
+  width: 120px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 0;
 
-    &:hover{
-      opacity: .7;
-    }
-
-    &:active{
-      opacity: .5;
-    }
+  &:hover {
+    opacity: 0.7;
   }
 
-  a {
-    color: var(--main-text-color);
-    font-weight: 400;
-    text-decoration: none; 
+  &:active {
+    opacity: 0.5;
   }
+}
 
-  a:hover{
+a {
+  color: var(--main-text-color);
+  font-weight: 400;
+  text-decoration: none;
+}
+
+a:hover {
   text-decoration: underline;
 }
