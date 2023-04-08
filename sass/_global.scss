@@ -27,7 +27,8 @@ img {
 }
 
 .btn{
-    width: 100%;
+    text-align: center;
+    width: 120px;
     border: 1px solid #000;
     border-radius: 5px;
     background-color: #000;
@@ -43,6 +44,12 @@ img {
     }
   }
 
-a:hover{
+  a {
+    color: var(--main-text-color);
+    font-weight: 400;
+    text-decoration: none; 
+  }
+
+  a:hover{
   text-decoration: underline;
 }
