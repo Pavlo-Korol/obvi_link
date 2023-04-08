@@ -253,6 +253,9 @@ a:hover {
   }
   .offer {
     display: flex;
+    justify-content: space-between;
+  }
+  .offer__wrapper {
     margin: 60px 65px 0 65px;
   }
   .offer__btn {
@@ -266,7 +269,6 @@ a:hover {
   }
   .offer__title-wrapper {
     margin-top: 190px;
-    margin-right: 65px;
   }
   .offer__title-desc {
     font-size: 18px;
@@ -309,6 +311,18 @@ a:hover {
   .logo {
     width: 158px;
     height: 25px;
+  }
+  .offer__wrapper {
+    margin: 60px 265px 0 265px;
+  }
+  .offer__title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 65px;
+    max-width: 500px;
+  }
+  .offer__title-desc {
+    max-width: 350px;
   }
 }
 
